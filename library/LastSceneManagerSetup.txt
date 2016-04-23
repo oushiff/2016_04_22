@@ -1,4 +1,4 @@
 sceneSetups:
-- path: assets/level2backup.unity
+- path: assets/Level1_Debug.unity
   isLoaded: 1
   isActive: 1

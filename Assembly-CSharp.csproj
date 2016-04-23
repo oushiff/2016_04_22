@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A27565A0-0568-A63A-A9E4-513D653D5018}</ProjectGuid>
+    <ProjectGuid>{7839D3BE-AF53-FA27-6D5A-3488E828EE26}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -69,11 +69,11 @@
      <Compile Include="assets\scripts\Character\Blinking.cs" />
      <Compile Include="assets\scripts\Character\Character.cs" />
      <Compile Include="assets\scripts\Character\SizeTransform.cs" />
+     <Compile Include="assets\scripts\EndGame.cs" />
      <Compile Include="assets\scripts\GameOver.cs" />
      <Compile Include="assets\scripts\MenuScript.cs" />
      <Compile Include="assets\scripts\PixelPerfectCamera.cs" />
      <Compile Include="assets\scripts\PlayerController.cs" />
-     <Compile Include="assets\scripts\Singleton\EndGame.cs" />
      <Compile Include="assets\scripts\Singleton\GameManager.cs" />
      <Compile Include="assets\scripts\Singleton\Singleton.cs" />
      <Compile Include="assets\scripts\VirtualJoystick.cs" />
