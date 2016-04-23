@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{58FABC6F-82A2-4273-8BEC-0E9D666F3C29}") = "536Transformatter-master", "Assembly-CSharp.csproj", "{2FA1D3D8-2C16-7464-F626-E268343B7701}"
+EndProject
+Project("{58FABC6F-82A2-4273-8BEC-0E9D666F3C29}") = "536Transformatter-master", "Assembly-CSharp-Editor.csproj", "{E7AFFFE6-FFAE-76F8-26BF-9B6BF5B857FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FA1D3D8-2C16-7464-F626-E268343B7701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA1D3D8-2C16-7464-F626-E268343B7701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA1D3D8-2C16-7464-F626-E268343B7701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA1D3D8-2C16-7464-F626-E268343B7701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7AFFFE6-FFAE-76F8-26BF-9B6BF5B857FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7AFFFE6-FFAE-76F8-26BF-9B6BF5B857FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7AFFFE6-FFAE-76F8-26BF-9B6BF5B857FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7AFFFE6-FFAE-76F8-26BF-9B6BF5B857FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

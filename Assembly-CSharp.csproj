@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{A27565A0-0568-A63A-A9E4-513D653D5018}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_2;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="assets\2dterraineditor\example\Scripts\Terrain2DGenerator.cs" />
+     <Compile Include="assets\2dterraineditor\example\Scripts\Terrain2DRealtimeDeformer.cs" />
+     <Compile Include="assets\2dterraineditor\scripts\TerrainEditor2D.cs" />
+     <Compile Include="assets\AirEffect.cs" />
+     <Compile Include="assets\CircleFireController.cs" />
+     <Compile Include="assets\CircleIceController.cs" />
+     <Compile Include="assets\CircleStoneController.cs" />
+     <Compile Include="assets\CloudController.cs" />
+     <Compile Include="assets\DarkCloudMovement.cs" />
+     <Compile Include="assets\HeroJump.cs" />
+     <Compile Include="assets\HeroTransform.cs" />
+     <Compile Include="assets\LevelSelectManager.cs" />
+     <Compile Include="assets\LockLevel.cs" />
+     <Compile Include="assets\PlayerMovement.cs" />
+     <Compile Include="assets\changeGravity.cs" />
+     <Compile Include="assets\circleWithGapController.cs" />
+     <Compile Include="assets\healthbarController.cs" />
+     <Compile Include="assets\rotateTerrainController.cs" />
+     <Compile Include="assets\scripts\CameraController.cs" />
+     <Compile Include="assets\scripts\CameraFollow.cs" />
+     <Compile Include="assets\scripts\CameraMovement.cs" />
+     <Compile Include="assets\scripts\Character\Blinking.cs" />
+     <Compile Include="assets\scripts\Character\Character.cs" />
+     <Compile Include="assets\scripts\Character\SizeTransform.cs" />
+     <Compile Include="assets\scripts\GameOver.cs" />
+     <Compile Include="assets\scripts\MenuScript.cs" />
+     <Compile Include="assets\scripts\PixelPerfectCamera.cs" />
+     <Compile Include="assets\scripts\PlayerController.cs" />
+     <Compile Include="assets\scripts\Singleton\EndGame.cs" />
+     <Compile Include="assets\scripts\Singleton\GameManager.cs" />
+     <Compile Include="assets\scripts\Singleton\Singleton.cs" />
+     <Compile Include="assets\scripts\VirtualJoystick.cs" />
+     <Compile Include="assets\scripts\WaterWheelController1.cs" />
+     <Compile Include="assets\scripts\WaterWheelController2.cs" />
+     <Compile Include="assets\scripts\WinController.cs" />
+     <Compile Include="assets\scripts\coins and enemy\Coin.cs" />
+     <Compile Include="assets\scripts\coins and enemy\Enemy\Enemy.cs" />
+     <Compile Include="assets\scripts\coins and enemy\Enemy\EnemySight.cs" />
+     <Compile Include="assets\scripts\coins and enemy\Enemy\IEnemyState.cs" />
+     <Compile Include="assets\scripts\coins and enemy\Enemy\IdleState.cs" />
+     <Compile Include="assets\scripts\coins and enemy\Enemy\IgnoreCollision.cs" />
+     <Compile Include="assets\scripts\coins and enemy\Enemy\MelleState.cs" />
+     <Compile Include="assets\scripts\coins and enemy\Enemy\PatrolState.cs" />
+     <Compile Include="assets\scripts\coins and enemy\Enemy\RangedState.cs" />
+     <Compile Include="assets\scripts\coins and enemy\Enemy_old.cs" />
+     <Compile Include="assets\scripts\coins and enemy\HealthKit.cs" />
+     <Compile Include="assets\scripts\coins and enemy\InvincibleKit.cs" />
+     <Compile Include="assets\scripts\coins and enemy\Jag.cs" />
+     <Compile Include="assets\scripts\coins and enemy\NonFloatCoin.cs" />
+     <Compile Include="assets\scripts\ui\Modal Window\BringToFront.cs" />
+     <Compile Include="assets\scripts\ui\Modal Window\ModalPanel.cs" />
+     <Compile Include="assets\scripts\ui\Modal Window\TestModalWindow.cs" />
+     <Compile Include="assets\scripts\ui\ResetTimeCoins.cs" />
+     <Compile Include="assets\scripts\ui\UpdateUI.cs" />
+     <Compile Include="assets\scripts\ui\UpdateWinScene.cs" />
+     <Compile Include="assets\scripts\woodController1.cs" />
+     <Compile Include="assets\scripts\woodController2.cs" />
+     <None Include="assets\ProjectSettings\ProjectVersion.txt" />
+     <None Include="assets\abstract platformer (370 assets)\License.txt" />
+     <None Include="assets\abstract platformer (370 assets)\Spritesheet\spritesheet_enemies.xml" />
+     <None Include="assets\abstract platformer (370 assets)\Spritesheet\spritesheet_other.xml" />
+     <None Include="assets\Shaders\Standard.shader" />
+     <None Include="assets\Shaders\Sprites-Diffuse.shader" />
+     <None Include="assets\abstract platformer (370 assets)\Spritesheet\spritesheet_tiles.xml" />
+     <None Include="assets\abstract platformer (370 assets)\Spritesheet\spritesheet_players.xml" />
+     <None Include="assets\abstract platformer (370 assets)\Spritesheet\spritesheet_complete.xml" />
+     <None Include="assets\2dterraineditor\Readme.txt" />
+     <None Include="assets\abstract platformer (370 assets)\Spritesheet\spritesheet_items.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

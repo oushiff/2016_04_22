@@ -1,0 +1,24 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="assets/Shaders/Sprites-Diffuse.shader">
+    <Files>
+      <File FileName="assets/scripts/Singleton/GameManager.cs" Line="138" Column="1" />
+      <File FileName="assets/scripts/Character/SizeTransform.cs" Line="17" Column="24" />
+      <File FileName="assets/scripts/PlayerController.cs" Line="1" Column="1" />
+      <File FileName="assets/scripts/CameraFollow.cs" Line="1" Column="1" />
+      <File FileName="assets/LockLevel.cs" Line="1" Column="1" />
+      <File FileName="assets/LevelSelectManager.cs" Line="1" Column="1" />
+      <File FileName="assets/scripts/WinController.cs" Line="1" Column="1" />
+      <File FileName="assets/DarkCloudMovement.cs" Line="1" Column="1" />
+      <File FileName="assets/scripts/Character/Blinking.cs" Line="19" Column="15" />
+      <File FileName="assets/CircleFireController.cs" Line="22" Column="43" />
+      <File FileName="assets/circleWithGapController.cs" Line="1" Column="1" />
+      <File FileName="assets/CloudController.cs" Line="1" Column="1" />
+      <File FileName="assets/Shaders/Sprites-Diffuse.shader" Line="82" Column="38" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
